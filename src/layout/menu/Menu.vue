@@ -57,8 +57,8 @@ const temperature = ref(0.7)
   >
     <h2 class="flex items-center text-[#28449C] font-bold mt-8 mb-2">
       <img
-        src="../../assets/image/satellite.svg"
-        class="h-[24px]"
+        src="../../assets/image/wangluoanquan (1).png"
+        class="h-[24px] icon"
       />网络安全私域大模型
     </h2>
     <span class="text-gray-500 text-xs">当前版本：v1.0.1</span>
@@ -105,14 +105,14 @@ const temperature = ref(0.7)
         /></span>
         <span class="text-sm">文件记录</span>
       </button>
-      <a href="/操作手册.docx" download target="_blank" class="w-full flex items-center p-2 my-1 hover:bg-slate-100 rounded-md"
+      <!-- <a href="/操作手册.docx" download target="_blank" class="w-full flex items-center p-2 my-1 hover:bg-slate-100 rounded-md"
         :class="route.name === 'notebook' ? 'is-active bg-slate-100' : ''"
         >
         <span class="w-8"
           ><img src="../../assets/image/menu/notebook.png" width="20" alt=""
         /></span>
         <span class="text-sm">操作手册</span>
-      </a>
+      </a> -->
     </div>
     <div class="flex bg-white my-5 flex-col w-4/5 py-3 px-2 items-start rounded-md">
       <span class="mb-2">
@@ -167,5 +167,9 @@ const temperature = ref(0.7)
 <style scoped lang="scss">
 .is-active{
   color: #01358e;
+}
+.icon{
+  width: 25px;
+  margin-right: 3px;
 }
 </style>
