@@ -18,7 +18,12 @@ const status = ref<"login" | "register">("login");
     <div class="h-full w-1/2 flex items-center justify-center bg-white rounded-l-[40px]">
       <div 
         class="flex flex-col items-center h-[450px] w-3/5 justify-between">
-        <img src="../../assets/login_title.png" class="w-full mb-8">
+        <!-- <img src="../../assets/login_title.png" class="w-full mb-8"> -->
+         <div class="content">
+          <img src="../../assets/图片2.png" alt="">
+         <p>网络安全私域大模型</p
+          ></div>
+         
         <Login 
           v-if="status === 'login'" 
           v-model:status="status" />
@@ -29,4 +34,16 @@ const status = ref<"login" | "register">("login");
     </div>
   </div>
 </template>
-<style scoped></style>
+<style scoped>
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content p{
+  color: rgb(86, 150, 247);
+  font-size: 40px;
+  font-weight: bold;
+  font-family: KaiTi;
+}
+</style>

@@ -22,7 +22,11 @@ const logout = async () => {
   <header
     class="h-[60px] relative flex flex-wrap items-center justify-between text-center bg-[url('../src/assets/header.jpg')]"
   >
-    <img src="../../assets/image/title.png" alt="" class="mx-auto h-[30px]" />
+    <!-- <img src="../../assets/image/title.png" alt="" class="mx-auto h-[30px]" /> -->
+     <div class="content mx-auto h-[30px]">
+          <img src="../../assets/图片2.png" alt="">
+         <p>网络安全私域大模型</p
+          ></div>
     <!-- <button
       class="md:hidden block absolute top-5 left-4"
       @click="isHistoryOpen = true"
@@ -47,3 +51,20 @@ const logout = async () => {
   </header>
   <History v-model="isHistoryOpen" />
 </template>
+<style scoped>
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content img{
+  width: 30px;
+  height: 30px;
+}
+.content p{
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: KaiTi;
+}
+</style>

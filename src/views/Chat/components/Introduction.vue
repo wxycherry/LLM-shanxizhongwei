@@ -25,22 +25,22 @@ const sendQuestion = (question: string) => {
         class="bg-gradient-to-r from-[#1e3b8ae0] to-[#0285c7e0] w-full h-full text-white flex flex-col justify-between p-6"
       >
         <h2 class="text-xl font-normal tracking-wide">
-          Hi,我是您的小卫星智能助手，我可以回答任何小卫星相关的问题。
+          Hi,我是您的网络安全私域大模型智能助手，我可以回答任何网络安全相关的问题。
         </h2>
         <ul class="text-sm ml-4">
-          <li class="list-disc py-4">有关小卫星的介绍有哪些？</li>
-          <li class="list-disc py-4">小卫星的种类是哪些？</li>
-          <li class="list-disc py-4">如何针对小卫星的运行轨迹进行测算？</li>
+          <li class="list-disc py-4">网络安全的基本概念是什么？</li>
+          <li class="list-disc py-4">常见的网络安全威胁有哪些？</li>
+          <li class="list-disc py-4">如何保护个人数据免受网络攻击？</li>
         </ul>
         <div class="pt-4 text-xs">
           <button class="px-3 py-2 rounded-xl mr-4 border border-white">
-            小卫星查询
+            网络安全漏洞扫描
           </button>
           <button class="px-3 py-2 rounded-xl mr-4 border border-white">
-            小卫星智能分析
+            网络入侵检测分析
           </button>
           <button class="px-3 py-2 rounded-xl mr-4 border border-white">
-            常用报告撰写
+            安全合规报告生成
           </button>
         </div>
       </div>

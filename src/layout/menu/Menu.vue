@@ -59,7 +59,7 @@ const temperature = ref(0.7)
       <img
         src="../../assets/image/satellite.svg"
         class="h-[24px]"
-      />小卫星私域大模型
+      />网络安全私域大模型
     </h2>
     <span class="text-gray-500 text-xs">当前版本：v1.0.1</span>
     <div
